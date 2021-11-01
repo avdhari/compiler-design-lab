@@ -68,7 +68,7 @@ int main()
     int i,j = 0, k = 0;
     int inString = 0;
 
-    fp = fopen("pgm1/input.txt", "r");
+    fp = fopen("input_code.txt", "r");
 
     if (fp == NULL) {
         printf("Error while opening the file!\n");

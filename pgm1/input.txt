@@ -1,8 +1,0 @@
-int isSpecialSymbol(char ch) {
-    char specials[] = "(){},;*#";
-    for(int i = 0; i<8; ++i) {
-        if(ch == specials[i])
-            return 1;
-    }
-    return 0;
-}
